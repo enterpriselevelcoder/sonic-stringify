@@ -1,0 +1,32 @@
+{
+  "name": "sonic-stringify",
+  "version": "1.0.2",
+  "description": "A Lightining fast JSON stringify library",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./lib/index.js",
+    "benchmarks": "node benchmarks/",
+    "test": "./node_modules/.bin/mocha ./test",
+    "testmon": "PORT=8000 ./node_modules/.bin/nodemon --ext .js --watch ./lib --exec './node_modules/.bin/mocha ./test' --delay 1",
+    "cover": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha -- -R spec test/*"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "json",
+    "serializer",
+    "stringify",
+    "fast",
+    "library"
+  ],
+  "author": "Juliano Teixeira",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  }
+}
