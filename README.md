@@ -3,11 +3,11 @@
 
 # Lightining fast JSON stringify library
 
-A lightning fast JSON serializer for Javascript Objects. 150x faster than JSON.stringify.
+A lightning fast JSON serializer for Javascript Objects. 150% faster than JSON.stringify.
 
 # Performance Comparison
 
-We ran 3 different benchmarks comparing to JSON.stringify and our library serialization is `150 times` faster for simple objects, `20 times` faster for medium complexity objects and similar results for complex objects.
+We ran 3 different benchmarks comparing to JSON.stringify and our library serialization is `150%` faster for simple objects, `20%` faster for medium complexity objects and similar results for complex objects.
 
 ## Benchmark times
 
