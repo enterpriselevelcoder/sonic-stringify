@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/enterpriselevelcoder/sonic-stringify.svg?branch=master)](https://travis-ci.org/enterpriselevelcoder/sonic-stringify) [![Coverage Status](https://coveralls.io/repos/github/enterpriselevelcoder/sonic-stringify/badge.svg?branch=master)](https://coveralls.io/github/enterpriselevelcoder/sonic-stringify?branch=master)
+[![Build Status](https://travis-ci.org/enterpriselevelcoder/sonic-stringify.svg?branch=master)](https://travis-ci.org/enterpriselevelcoder/sonic-stringify) [![Coverage Status](https://coveralls.io/repos/github/enterpriselevelcoder/sonic-stringify/badge.svg?branch=master&service=github)](https://coveralls.io/github/enterpriselevelcoder/sonic-stringify?branch=master)
 
 
 # Lightining fast JSON stringify library
