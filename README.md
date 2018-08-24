@@ -3,7 +3,7 @@
 
 # Lightining fast JSON stringify library
 
-A lightning fast JSON serializer for Javascript Objects.
+A lightning fast JSON serializer for Javascript Objects. 150x faster than JSON.stringify.
 
 # Performance Comparison
 
@@ -14,7 +14,7 @@ We ran 3 different benchmarks comparing to JSON.stringify and our library serial
 ```bash
 $ npm run benchmarks
 
-sonic-stringify [simple] x 7,869,445 ops/sec ±0.52% (89 runs sampled)
+sonic-stringify  [simple] x 7,869,445 ops/sec ±0.52% (89 runs sampled)
 JSON.stringify   [simple] x 3,113,250 ops/sec ±0.87% (85 runs sampled)
 Fastest is sonic-stringify [simple]
 
